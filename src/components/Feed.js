@@ -1,6 +1,5 @@
-import React, { useContext } from "react";
+import React from "react";
 import Post from "./Post";
-import DataContext from "../context/DataContext";
 
 const Feed = ({ posts }) => {
 

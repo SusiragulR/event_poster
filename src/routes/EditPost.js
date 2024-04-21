@@ -21,7 +21,7 @@ const EditPost = () => {
         setEditPostTitle(selectedPost[0].title);
         setEditPostBody(selectedPost[0].body);
         }
-    }, [setEditPostTitle, setEditPostBody]);
+    }, [selectedPost[0]]);
 
     return (
         <form className="editPost" onSubmit={(e) => e.preventDefault()}>
